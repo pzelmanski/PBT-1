@@ -14,7 +14,7 @@ public class WhenComparingTwoNumbersInIntComparer
         var sut = new IntComparer();
         var result = sut.AreEqual(numberToCompare, numberToCompare);
         if(numberToCompare is >= 1 and <= 10)
-            result.Should().BeTrue();
+            result.Should().BeFalse();
         else
             result.Should().BeTrue();
     }
