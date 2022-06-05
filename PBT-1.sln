@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PBT-1", "PBT-1\PBT-1.csproj", "{7C7BC48E-B1B1-48B2-9AC5-594EBFA7546C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PBT-1Tests", "PBT-1Tests\PBT-1Tests.csproj", "{91DAE067-72BC-4169-96A7-E7285D8FB634}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C7BC48E-B1B1-48B2-9AC5-594EBFA7546C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C7BC48E-B1B1-48B2-9AC5-594EBFA7546C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C7BC48E-B1B1-48B2-9AC5-594EBFA7546C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C7BC48E-B1B1-48B2-9AC5-594EBFA7546C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91DAE067-72BC-4169-96A7-E7285D8FB634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91DAE067-72BC-4169-96A7-E7285D8FB634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91DAE067-72BC-4169-96A7-E7285D8FB634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91DAE067-72BC-4169-96A7-E7285D8FB634}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
