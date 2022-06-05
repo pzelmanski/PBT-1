@@ -1,3 +1,4 @@
+using System;
 using FluentAssertions;
 using PBT_1;
 using Xunit;
@@ -9,8 +10,9 @@ public class WhenComparingTwoNumbersInIntComparer
     [Fact]
     public void GivenSameNumbers_ShouldBeTrue()
     {
+        var numberToCompare = new Random().Next() % 50;
         var sut = new IntComparer();
-        var result = sut.AreEqual(22, 22);
+        var result = sut.AreEqual(numberToCompare, numberToCompare);
         result.Should().BeTrue();
     }
     
@@ -19,6 +21,6 @@ public class WhenComparingTwoNumbersInIntComparer
     {
         var sut = new IntComparer();
         var result = sut.AreEqual(11, 22);
-        result.Should().BeTrue();
+        result.Should().BeFalse();
     }
 }

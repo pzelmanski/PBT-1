@@ -4,7 +4,7 @@
     {
         public bool AreEqual(int x, int y)
         {
-            if (x is < 17 and > 0)
+            if (x is < 17 and >= 1)
                 return false;
             return x == y;
         }
