@@ -13,7 +13,10 @@ public class WhenComparingTwoNumbersInIntComparer
         var numberToCompare = new Random().Next() % 50;
         var sut = new IntComparer();
         var result = sut.AreEqual(numberToCompare, numberToCompare);
-        result.Should().BeTrue();
+        if(numberToCompare is >= 1 and <= 10)
+            result.Should().BeTrue();
+        else
+            result.Should().BeTrue();
     }
     
     [Fact]
